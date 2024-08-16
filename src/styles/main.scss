@@ -1,0 +1,42 @@
+@use 'vars';
+@use 'characters';
+@use 'hero';
+@use 'sobre';
+@use 'bests_eps';
+@use 'footer';
+@use 'header';
+
+body {
+    background-color: black;
+    font-family: "Lato", sans-serif;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.txt--small {
+    color: vars.$txtPrin;
+    font-size: 12px;
+}
+
+.txt--big {
+    color: vars.$txtPrin;
+    font-size: 20px
+}
+
+.titulo--section {
+    text-align: center;
+    padding-top: 100px;
+
+    
+    .title__section {
+        width: 195px;
+        color: #fff;
+        padding: 12px;
+        background-color: rgb(47, 199, 42);
+        font-family: New Amsterdam, sans-serif;
+        font-size: 22px;
+        border-radius: 3px;
+    }
+}

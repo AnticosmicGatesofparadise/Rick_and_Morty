@@ -1,0 +1,21 @@
+.best-eps {
+    width: 200px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding-left: 250px;
+
+    h4 {
+        color: #fff;
+        text-align: center;
+    }
+
+    img {
+        border-radius: 6px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

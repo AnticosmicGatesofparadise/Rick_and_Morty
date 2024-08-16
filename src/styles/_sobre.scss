@@ -1,0 +1,14 @@
+.sobre {
+    text-align: center;
+
+    div {
+        display: inline-block;
+        position: relative;
+
+        p {
+            position: absolute;
+            top: 50px;
+            color: #fff;
+        }
+    }
+}

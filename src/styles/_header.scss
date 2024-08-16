@@ -1,0 +1,42 @@
+.header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+    &__container {
+        padding: 4px 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        max-width: 80px;
+        width: 100%;
+    }
+
+    &__links {
+        display: flex;
+        list-style: none;
+
+        &__item {
+            button {
+                padding: 16px;
+                background-color: rgb(47, 199, 42);
+                border-radius: 6px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .-is--hidden {
+        visibility: hidden;
+    }
+}

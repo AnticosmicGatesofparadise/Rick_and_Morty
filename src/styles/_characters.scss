@@ -1,0 +1,25 @@
+.char-prin {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .character {
+        width: 330px;
+        background-repeat: no-repeat;
+    
+        img {
+            width: 230px;
+            padding: 30 40px;
+        }
+    
+        h4 {
+            padding-top: 35px;
+            font-size: 20px;
+        }
+    
+        p {
+            width: 300px;
+            max-width: 100%;
+        }
+    }
+}

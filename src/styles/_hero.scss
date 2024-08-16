@@ -1,0 +1,57 @@
+@use 'vars';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-size: cover;
+    text-align: right;
+
+    &--button {
+        padding-top: 320px;
+        padding-right: 125px;
+    }
+
+    p {
+        width: 450px;
+        max-width: 100%;
+        padding-left: 800px;
+        text-align: left;
+    }
+    
+
+    .RM {
+        background-color: green;
+        padding: 3px;
+        border-radius: 3px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .AS {
+        background-color: black;
+        padding: 3px;
+        border-radius: 3px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    button {
+        padding: 16px;
+        background-color: rgb(47, 199, 42);
+        border-radius: 6px;
+        color: vars.$txtPrin;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        margin-right: 25px;
+
+        &:hover {
+            background-color: rgb(53, 224, 47);
+        }
+    }
+}
